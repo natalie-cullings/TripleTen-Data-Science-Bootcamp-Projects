@@ -1,4 +1,5 @@
-# Basic Python Project: Entertainment Data Analysis
+# IMDb TV Show Ratings Analysis
+#### *Project 1: Basic Python*
 
 ## Overview
 
