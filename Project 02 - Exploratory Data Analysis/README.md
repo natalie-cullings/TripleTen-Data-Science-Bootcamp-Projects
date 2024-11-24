@@ -50,11 +50,6 @@ A description of the data sources this project utilizes is provided below:
 - 'department_id': ID number that uniquely identifies each grocery department category
 - 'department': name of the department
 
-
-The dataset is stored as a CSV file named `movies_and_shows.csv`. 
-
-**Note:** The column names given above are reflective of their names *after* they were renamed in the Jupyter Notebook.
-
 ## Objective <a id="objective"></a>
 
 The primary objective of this project is to uncover insights into the shopping habits of Instacart customers.
@@ -75,7 +70,7 @@ The analysis involves the following steps:
    - Group and aggregate data.
    - Plot visualizations of the data distributions (bar charts and histograms) to uncover patterns in Instacart customer behaviors.
    
-5. **Insights**:
+4. **Insights**:
    - Draw conclusions about Instacart customers' shopping habits and the most popular products ordered.
 
 ## Requirements <a id="requirements"></a>
