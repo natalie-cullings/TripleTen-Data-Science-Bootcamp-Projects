@@ -2,67 +2,75 @@
 
 ## Overview
 
-This project explores data from the entertainment industry, focusing on movies and TV shows. The primary objective is to analyze trends during the "Golden Age" of television, which began in 1999 with *The Sopranos* and continues today. By examining how the number of votes impacts ratings, this analysis aims to uncover patterns associated with high-quality TV shows from this era.
+This project utilizes the basic fundamentals of Python to explore movie and TV show data from the entertainment industry. Its primary objective is to analyze trends during the "Golden Age" of television, which began in 1999 with *The Sopranos* and continues to this day. This analysis examines the TV show data specifically to uncover the relationship between the quantity of user votes and TV show ratings. 
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Dataset](#dataset)
-3. [Objective](#objective)
-4. [Analysis Process](#analysis-process)
-5. [Requirements](#requirements)
-6. [How to Run](#how-to-run)
-7. [Results](#results)
-8. [Contributing](#contributing)
-9. [License](#license)
-
-## Introduction <a id="introduction"></a>
-
-In this project, we work with entertainment data to examine relationships between user votes and ratings for TV shows. This analysis excludes movies to focus specifically on trends in television.
+1. [Dataset](#dataset)
+2. [Objective](#objective)
+3. [Analysis Process](#analysis-process)
+4. [Requirements](#requirements)
+5. [Results](#results)
 
 ## Dataset <a id="dataset"></a>
 
-The dataset used in this project contains records of movies and TV shows, including details like:
+The dataset for this project contains various information about movies and TV shows:
 
-- Title
-- Release Year
-- Genre
-- Number of Votes
-- User Ratings
+- **title:** The title of the movie or TV show. 
+- **type:** Specifies if the record is related to a movie or TV show.
+- **genres:** A list of genres the movie or TV show is classified under.
+- **name:** The first and last name of the prominent person associated with the title (the director or a leading actor).
+- **character:** The name of the character played in the title (for actors).
+- **role:** Specifies if the given name is an actor's or the director.
+- **release_year:** The year that the movie or TV show was released.
+- **imdb_votes:** The number of IMDb votes (ratings) a movie or TV show has received.
+- **imdb_rating:** The IMDb rating of the movie or TV show. 
 
-The dataset is stored as a CSV file named `movies_and_shows.csv`.
+
+The dataset is stored as a CSV file named `movies_and_shows.csv`. 
+
+**Note:** The column names given above are reflective of their names *after* they were renamed in the Jupyter Notebook.
 
 ## Objective <a id="objective"></a>
 
-The primary aim of this project is to investigate whether TV shows that received high ratings during the "Golden Age" of television also attracted the most votes from viewers.
+The primary objective of this project is to investigate whether TV shows that received high ratings during the "Golden Age" of television also attracted the most votes from viewers.
 
 ## Analysis Process <a id="analysis-process"></a>
 
 The analysis involves the following steps:
 
-1. **Data Loading and Cleaning**:
-   - Importing the dataset and handling missing or inconsistent data.
+1. **Data Loading and Exploration**:
+   - Import and explore the dataset.
    
-2. **Exploratory Data Analysis (EDA)**:
-   - Analyzing distributions, trends, and correlations between votes and ratings.
+2. **Data Preprocessing**:
+   - Handling missing, duplicate, or inconsistent data.Analyzing distributions, trends, and correlations between votes and ratings.
    
 3. **Data Filtering**:
-   - Isolating TV shows and removing irrelevant data such as movies.
+   - Filter the dataset to only include TV shows released in 1999 or later.
+   - Remove outliers in the dataset.
    
-4. **Visualization**:
-   - Creating plots to illustrate relationships between ratings and votes.
+4. **Exploratory Data Analysis**:
+   - Group titles into rounded IMDb score buckets and calculate the average number of votes for each grouped score.
    
 5. **Insights**:
-   - Drawing conclusions about viewer preferences and the popularity of shows during the "Golden Age" of television.
+   - Draw conclusions about viewer preferences and the popularity of shows during the "Golden Age" of television.
 
 ## Requirements <a id="requirements"></a>
 
-The following libraries are used in this project:
+To run this project, you'll need to install the necessary Python dependencies. These can be installed using `pip` by following the steps below:
 
-- `pandas` for data manipulation
-- `matplotlib` for visualization
+1. Make sure you have Python installed (preferably version 3.6 or higher).
+2. Use the following command to install the required packages:
 
-Install the dependencies using:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-```bash
-pip install pandas matplotlib
+   The `requirements.txt` file includes the following package:
+   - `pandas==2.2.3`
+
+## Results <a id="results"></a>
+
+The analysis supports the assumption that highly-rated TV shows released during the "Golden Age" of television also have the most votes. 
+
+Please view the Jupyter Notebook for detailed insights. 
