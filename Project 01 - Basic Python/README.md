@@ -44,7 +44,7 @@ The analysis involves the following steps:
    - Import and explore the dataset.
    
 2. **Data Preprocessing**:
-   - Handling missing, duplicate, or inconsistent data.Analyzing distributions, trends, and correlations between votes and ratings.
+   - Handling missing, duplicate, or inconsistent data.
    
 3. **Data Filtering**:
    - Filter the dataset to only include TV shows released in 1999 or later.
