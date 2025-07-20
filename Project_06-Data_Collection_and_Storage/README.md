@@ -1,59 +1,48 @@
 # Project 6: Data Collecton and Storage (SQL and HTTP Web Requests)
-#### *Chicago Ride-sharing Market Analysis*
-
-## Overview
-
-The hypothetical, new ride-sharing company Zuber is launching in Chicago. The company wants to understand the top taxi companies operating in the area, the most common neighborhoods that customers take taxis to, and to test a hypothesis about the impact of weather on rides.
-
-The weather data for the analysis is obtained via an HTTP request using the get() method. From there, the obtained HTML is parsed using the BeautifulSoup library to get the needed information in the desired format. The csv files were obtained via an export of the result set of SQL queries written against Zuber's database. 
+#### *Chicago Taxi Market Analysis*
 
 ## Table of Contents
 
-1. [Dataset](#dataset)
+1. [Overview](#overview)
 2. [Objective](#objective)
-3. [Analysis Process](#analysis-process)
-4. [Requirements](#requirements)
-5. [Results](#results)
+3. [Dataset](#dataset)
+4. [Analysis Process](#analysis-process)
+5. [Requirements](#requirements)
+6. [Results](#results)
 
-## Dataset
+## Overview <a id="overview"></a>
 
-The following three csv files are used:
-- **trips_by_taxi_company.csv**: this file contains data around the number of taxi rides per taxi company from November 15-16, 2017
-- **avg_trips_by_destination_neighborhood.csv**: this file contains data around the average number of trips per neighborhood that taxi rides ended in in November 2017
-- **loop_to_ohare_trips.csv**: this file contains data on rides from the Loop neighborhood to O'Hare International Airport
+The hypothetical, new ride-sharing company Zuber is launching in Chicago. The company wants to understand the local taxi market and test a hypothesis about the impact of weather on rides.
 
-# Data Definitions
+The weather data for the analysis is obtained via an HTTP request using the get() method. From there, the obtained HTML is parsed using the BeautifulSoup library to get the needed information in the desired format. The csv files were obtained via an export of the result set of SQL queries written against Zuber's database.
 
-**trips_by_taxi_company.csv:**
+## Objective <a id="objective"></a>
+
+The objective is to understand the top taxi companies operating in the area, the most common neighborhoods that customers take taxis to, and to test the hypotheses as to whether the average duration of rides to the airport from a sample neighborhood (the Loop neighborhood) is different on rainy Saturdays compared to the entire dataset. 
+
+## Dataset <a id="dataset"></a>
+
+The project relies on the following three csv files:
+
+**Trips by Taxi Company**
+*trips_by_taxi_company.csv: This file contains data around the number of taxi rides per taxi company from November 15-16, 2017.*
 - *company_name:* the name of the taxi company
 - *trips_amount:* the number of trips conducted by each taxi company
 
-**avg_trips_by_destination_neighborhood.csv:**
+**Average Trips by Destination Neighborhood**
+*avg_trips_by_destination_neighborhood.csv: This file contains data around the average number of trips per neighborhood that taxi rides ended in in November 2017.*
 - *dropoff_location_name:* the name of the neighborhood that the taxi ride ended in
 - *average_trips:* the average number of trips that ended in the specified neighborhood
 
-**loop_to_ohare_trips.csv:**
+**Loop to O'Hare Trips**
+*loop_to_ohare_trips.csv: This file contains data on rides from the Loop neighborhood to O'Hare International Airport.*
 - *start_ts:* the datetime value of when the taxi ride started
 - *weather_conditions:* the value of this field is 'Bad' if the weather was rainy or stormy, but 'Good' otherwise
 - *duration_seconds:* the duration of the taxi ride in seconds
 
-## Objective
-
-The main objective of this project is to analyze video game sales and identify which features are most influential in determining a game's success. The analysis aims to build a clear understanding of how factors such as platform, genre, and release year impact sales.
-
-## Analysis Process
+## Analysis Process <a id="analysis-process"></a>
 
 The analysis process is divided into the following steps:
-
-- Import the csv files
-- Study the data they contain
-- Ensure the data and data types are as expected
-- Identify the top 10 neighborhoods customers take taxi rides to
-- Visualize the taxi companies by number of trips
-- Visualize the top 10 neighborhoods customers take taxi rides to by average trips
-- Draw conclusions about the data
-- Test the hypothesis that rides from the Loop neighborhood to O'Hare International Airport are  longer in duration, on average, on rainy Saturdays compared to all trips to the airport from Loop
-- Draw conclusions about the hypothesis test
 
 1. **HTTP Web Request for Chicago Weather Data**:
    - Leverage the Requests and BeautifulSoup Python packages to get and parse data hourly data about the weather in Chicago in November 2017.
@@ -73,7 +62,7 @@ The analysis process is divided into the following steps:
 6. **Insights**:
    - Draw conclusions about the data and the results of the hypothesis test.
 
-## Requirements
+## Requirements <a id="requirements"></a>
 
 To run this project, the necessary Python dependencies can be installed with `pip`. Please follow these steps:
 
@@ -90,7 +79,7 @@ To run this project, the necessary Python dependencies can be installed with `pi
    - `Requests==2.32.3`
    
 
-## Results
+## Results <a id="results"></a>
 
 The taxi company market in the Chicago area is very competitive. Sixteen taxi companies accounted for 75% of trip volume for the analyzed sample while one company, Flash Cab, led the market in trip volume by a signifcant lead. The dataset for trips by taxi company is heavily right-skewed--the relatively higher performance of top companies drives this behavior. 
 

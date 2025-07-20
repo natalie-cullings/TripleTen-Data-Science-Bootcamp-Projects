@@ -1,17 +1,24 @@
 # Instacart Customer Behavior Analysis
 #### *Project 2: Exploratory Data Analysis*
 
-## Overview
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Objective](#objective)
+3. [Dataset](#dataset)
+4. [Analysis Process](#analysis-process)
+5. [Requirements](#requirements)
+6. [Results](#results)
+
+## Overview <a id="overview"></a>
 
 This project leverages exploratory data analysis (EDA) to uncover insights about customer behavior on Instacart. The analysis reveals insights around when customers place orders, how frequently they place orders, how many products they buy in an order, and what products are most popular (both in general and also in terms of reordered products).
 
-## Table of Contents
+The data sources used in this project were originally published by Instacart on Kaggle for a public competition. 
 
-1. [Dataset](#dataset)
-2. [Objective](#objective)
-3. [Analysis Process](#analysis-process)
-4. [Requirements](#requirements)
-5. [Results](#results)
+## Objective <a id="objective"></a>
+
+The primary objective of this project is to uncover insights into the shopping habits of Instacart customers.
 
 ## Dataset <a id="dataset"></a>
 
@@ -50,11 +57,6 @@ A description of the data sources this project utilizes is provided below:
 - 'department_id': ID number that uniquely identifies each grocery department category
 - 'department': name of the department
 
-## Objective <a id="objective"></a>
-
-The primary objective of this project is to uncover insights into the shopping habits of Instacart customers.
-
-These data sources were originally published by Instacart on Kaggle for a public competition. 
 
 ## Analysis Process <a id="analysis-process"></a>
 

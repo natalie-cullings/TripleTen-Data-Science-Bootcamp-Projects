@@ -1,19 +1,24 @@
 # Project 5: Integrated Project #1
 #### *Identify Patterns that Drive the Success of Video Games*
 
-## Overview
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Objective](#objective)
+3. [Dataset](#dataset)
+4. [Analysis Process](#analysis-process)
+5. [Requirements](#requirements)
+6. [Results](#results)
+
+## Overview <a id="overview"></a>
 
 This project involves an analysis of video game sales using Python. The primary goal of this analysis is to explore various factors affecting video game popularity, with a particular focus on understanding the correlations between features such as genre, platform, and global sales. The project aims to provide insights that could be used by game developers and publishers to better understand market trends and consumer preferences.
 
-## Table of Contents
+## Objective <a id="objective"></a>
 
-1. [Dataset](#dataset)
-2. [Objective](#objective)
-3. [Analysis Process](#analysis-process)
-4. [Requirements](#requirements)
-5. [Results](#results)
+The main objective of this project is to analyze video game sales and identify which features are most influential in determining a game's success. The analysis aims to build a clear understanding of how factors such as platform, genre, and release year impact sales.
 
-## Dataset
+## Dataset <a id="dataset"></a>
 
 This project relies on the provided `games.csv` data file, which contains data spanning back to 2016. Note that data for 2016 may be incomplete.
 
@@ -30,12 +35,7 @@ The dataset includes the following columns:
 - **other_sales**: Sales in other regions (in millions of units).
 - **global_sales**: Total worldwide sales (in millions of units).
 
-
-## Objective
-
-The main objective of this project is to analyze video game sales and identify which features are most influential in determining a game's success. The analysis aims to build a clear understanding of how factors such as platform, genre, and release year impact sales.
-
-## Analysis Process
+## Analysis Process <a id="analysis-process"></a>
 
 The analysis process is divided into the following steps:
 
@@ -55,7 +55,7 @@ The analysis process is divided into the following steps:
 5. **Insights**:
    - Draw conclusions about which factors most strongly impact video game sales and propose potential strategies for developers and publishers.
 
-## Requirements
+## Requirements <a id="requirements"></a>
 
 To run this project, the necessary Python dependencies can be installed with `pip`. Please follow these steps:
 
@@ -70,7 +70,7 @@ To run this project, the necessary Python dependencies can be installed with `pi
    - `numpy==2.1.3`
    - `scipy==1.14.1`
 
-## Results
+## Results <a id="results"></a>
 
 The analysis revealed several interesting insights regarding video game sales. Among them, we found that games released on popular platforms such as PlayStation and Xbox tend to have higher sales. Additionally, certain genres like Action and Sports are consistently top performers in terms of sales. 
 

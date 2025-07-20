@@ -1,7 +1,16 @@
 # Project 3: Statistical Data Analysis
 #### *Telecommmunications Plan Revenue Analysis*
 
-## Overview
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Objective](#objective)
+3. [Dataset](#dataset)
+4. [Analysis Process](#analysis-process)
+5. [Requirements](#requirements)
+6. [Results](#results)
+
+## Overview <a id="overview"></a>
 
 The commercial department of the hypothetical telecom operator company Megaline offers its clients two prepaid plans: Surf and Ultimate. Megaline's commercial department wants to know which of the plans brings in more revenue in order to adjust its advertising budget.
 
@@ -9,20 +18,16 @@ This project involves a preliminary analysis of the plans based on a relatively 
 
 The dataset from 2018 contains information about who the clients are, where they're from, which plan they are on, the number of calls they made, the number of texts they sent, and the amount of data they consumed via web sessions. There is also data available about what each plan includes and the cost of overages beyond what's included.
 
-## Table of Contents
+## Objective <a id="objective"></a>
 
-1. [Dataset](#dataset)
-2. [Objective](#objective)
-3. [Analysis Process](#analysis-process)
-4. [Requirements](#requirements)
-5. [Results](#results)
+The primary objective of this project is to utilize statistics to establish which Megaline prepaid plan (Surf or Ultimate) brings in more revenue for the company so the commercial department can adjustment its advertising budget accordingly.
 
 ## Dataset <a id="dataset"></a>
 
 A description of the data sources this project utilizes is provided below:
 
 **Users**
-*megaline_users.csv: data on users**
+*megaline_users.csv: data on users*
  - **user_id:** The unique user identifier.
  - **first_name:** The user's first name.
  - **last_name:** The user's last name.
@@ -89,9 +94,6 @@ A description of the data sources this project utilizes is provided below:
  - Megaline rounds seconds up to minutes, and megabytes to gigabytes. For calls, each individual call is rounded up; even if the call lasted just one second, it will be counted as one minute. 
  - For web traffic, individual web sessions are not rounded up. Instead, the total for the month is rounded up. If someone uses 1025 megabytes this month, they will be charged for 2 gigabytes.
 
-## Objective <a id="objective"></a>
-
-The primary objective of this project is to utilize statistics to establish which Megaline prepaid plan (Surf or Ultimate) brings in more revenue for the company so the commercial department can adjustment its advertising budget accordingly.
 
 ## Analysis Process <a id="analysis-process"></a>
 

@@ -1,17 +1,22 @@
 # IMDb TV Show Ratings Analysis
 #### *Project 1: Basic Python*
 
-## Overview
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Objective](#objective)
+3. [Dataset](#dataset)
+4. [Analysis Process](#analysis-process)
+5. [Requirements](#requirements)
+6. [Results](#results)
+
+## Overview <a id="overview"></a>
 
 This project utilizes the basic fundamentals of Python to explore movie and TV show data from the entertainment industry. Its primary objective is to analyze trends during the "Golden Age" of television, which began in 1999 with *The Sopranos* and continues to this day. This analysis examines the TV show data specifically to uncover the relationship between the quantity of user votes and TV show ratings. 
 
-## Table of Contents
+## Objective <a id="objective"></a>
 
-1. [Dataset](#dataset)
-2. [Objective](#objective)
-3. [Analysis Process](#analysis-process)
-4. [Requirements](#requirements)
-5. [Results](#results)
+The primary objective of this project is to investigate whether TV shows that received high ratings during the "Golden Age" of television also attracted the most votes from viewers.
 
 ## Dataset <a id="dataset"></a>
 
@@ -31,10 +36,6 @@ The dataset for this project contains various information about movies and TV sh
 The dataset is stored as a CSV file named `movies_and_shows.csv`. 
 
 **Note:** The column names given above are reflective of their names *after* they were renamed in the Jupyter Notebook.
-
-## Objective <a id="objective"></a>
-
-The primary objective of this project is to investigate whether TV shows that received high ratings during the "Golden Age" of television also attracted the most votes from viewers.
 
 ## Analysis Process <a id="analysis-process"></a>
 
