@@ -1,4 +1,4 @@
-# Project 6: Data Collecton and Storage (SQL and HTTP Web Requests/Parsing)
+# Project 6: Data Collecton and Storage (SQL and HTTP Web Requests)
 #### *Chicago Ride-sharing Market Analysis*
 
 ## Overview
