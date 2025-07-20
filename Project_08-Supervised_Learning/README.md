@@ -1,4 +1,4 @@
-# Project 8:  Supervised Learning
+# Project 8: Supervised Learning
 #### *Customer Churn Prediction Model*
 
 ## Table of Contents

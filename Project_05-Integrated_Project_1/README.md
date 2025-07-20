@@ -12,7 +12,7 @@
 
 ## Overview <a id="overview"></a>
 
-This project involves an analysis of video game sales using Python. The primary goal of this analysis is to explore various factors affecting video game popularity, with a particular focus on understanding the correlations between features such as genre, platform, and global sales. The project aims to provide insights that could be used by game developers and publishers to better understand market trends and consumer preferences.
+This project analyzes video game sales using Python. It explores various factors affecting video game popularity, with a particular focus on understanding the correlations between features such as genre, platform, and global sales. The resulting insights can used by game developers and publishers to better understand market trends and consumer preferences.
 
 ## Objective <a id="objective"></a>
 
