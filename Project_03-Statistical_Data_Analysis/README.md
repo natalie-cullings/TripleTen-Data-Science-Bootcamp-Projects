@@ -1,13 +1,13 @@
-# Telecommmunications Plan Revenue Analysis
-#### *Project 3: Statistical Data Analysis*
+# Project 3: Statistical Data Analysis
+#### *Telecommmunications Plan Revenue Analysis*
 
 ## Overview
 
 The commercial department of the hypothetical telecom operator company Megaline offers its clients two prepaid plans: Surf and Ultimate. Megaline's commercial department wants to know which of the plans brings in more revenue in order to adjust its advertising budget.
 
-In this project, we'll carry out a preliminary analysis of the plans based on a relatively small client selection of 500 clients. Our goal is to analyze the clients' behavior and determine what plan brings in the most revenue. 
+This project involves a preliminary analysis of the plans based on a relatively small client selection of 500 clients. The goal is to analyze the clients' behavior and determine what plan brings in the most revenue. 
 
-We have data from 2018 on who the clients are, where they're from, which plan they are on, the number of calls they made, the number of texts they sent, and the amount of data they consumed via web sessions. We also have data about what each plan includes and the cost of overages beyond what's included.
+The dataset from 2018 contains information about who the clients are, where they're from, which plan they are on, the number of calls they made, the number of texts they sent, and the amount of data they consumed via web sessions. There is also data available about what each plan includes and the cost of overages beyond what's included.
 
 ## Table of Contents
 
