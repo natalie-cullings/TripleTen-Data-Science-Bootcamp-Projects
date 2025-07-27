@@ -1,5 +1,5 @@
 # TripleTen Projects
-Here's an overview of my portfolio for all the projects I worked on while attending the TripleTen Data Science Bootcamp between March and October in 2024. Click the link for a given project to dive deeper into it! 
+An overview of my project portfolio for all of the projects I worked on while attending the TripleTen Data Science Bootcamp between March and October of 2024. Click the link for a given project to dive deeper into it! 
 
 
 | Project Number | Bootcamp Topic | Project Title | Project Description |
