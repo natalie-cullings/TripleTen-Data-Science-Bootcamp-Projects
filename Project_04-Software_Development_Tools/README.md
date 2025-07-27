@@ -31,11 +31,11 @@ To launch this app locally, follow these instructions:
 
 1. Clone the repository to your local machine by entering the following command in terminal:
 
-git clone https://github.com/natalie-cullings/Data_projects_TripleTen/tree/main/Project_04-Software_Development_Tools
+git clone https://github.com/natalie-cullings/TripleTen-Data-Science-Bootcamp-Projects/tree/main/Project_04-Software_Development_Tools
 
 2. Navigate to the project directory in terminal:
 
-cd <PATH TO DIRECTORY HERE>Project_04-Software_Development_Tools
+cd <PATH TO DIRECTORY HERE>
 
 3. Install the required Python libraries by running the following command in terminal:
 
