@@ -81,6 +81,8 @@ Please find an overview of the fields within each data file below.
 **phone.csv**
  - **customerID:** The unique customer identifier (ID).
  - **MultipleLines:** Whether the customer has multiple phone lines or not.
+
+ **The target feature is when the 'EndDate' column in `contract.csv` equals 'No'.**
  
 
 ## Analysis Process <a id="analysis-process"></a>
