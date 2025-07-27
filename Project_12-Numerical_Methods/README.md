@@ -13,7 +13,7 @@
 
 Rusty Bargain, a hypothetical used car sales service company is developing an app to attract new customers. The app allows users to quickly find out the market value of their car. 
 
-Using historical data including technical specifications, trim versions, and prices, this project's objective is to build a model that the app will use to determine a vehicle's market model. 
+Using historical data including technical specifications, trim versions, and prices, this project's objective is to build a model that utilizes gradient boosting; Rusty Bargain's new app will leverage this model to determine a vehicle's market value.
 
 
 ## Dataset <a id="dataset"></a>
@@ -73,12 +73,12 @@ To run this project, the necessary Python dependencies can be installed with `pi
    The `requirements.txt` file includes the following packages:
     - `catboost==1.2.7`
     - `lightgbm==4.5.0`
-   - `matplotlib==3.8.4`
-   - `numpy==2.1.3`
-   - `optuna==4.0.0`
-   - `pandas==2.2.3`
-   - `scikit_learn==1.5.2`
-   - `xgboost==2.1.2`
+    - `matplotlib==3.8.4`
+    - `numpy==2.1.3`
+    - `optuna==4.0.0`
+    - `pandas==2.2.3`
+    - `scikit_learn==1.5.2`
+    - `xgboost==2.1.2`
    
 
 ## Results <a id="results"></a>
